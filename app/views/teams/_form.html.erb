@@ -15,8 +15,9 @@
       {{ player.name }} will be removed. <button v-on:click="undoRemove(index)">Undo</button>
     </div>
     <div v-else>
-      <label>Player Name</label>
+      <label>Player Name and Position</label>
       <input type="text" v-model="player.name" />
+      <input type="text" v-model="player.position" />
       <button v-on:click="removePlayer(index)">Remove</button>
     </div>
 

@@ -27,7 +27,7 @@ document.addEventListener('turbolinks:load', () => {
           this.team.players_attributes.push({
             id: null,
             name: "",
-            //position: "",
+            position: "",
             _destroy: null
           })
         },
